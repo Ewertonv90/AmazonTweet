@@ -1,0 +1,22 @@
+{
+
+	"name": "miniframework",
+
+	"require": {
+		"php": ">=7.0"
+	},
+
+	"authors": [
+		{
+			"name": "Ewerton Nascimento",
+			"email": "ewertonvinicius@outlook.com.br"
+		}
+	],
+	"autoload":{
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+
+}
