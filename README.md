@@ -8,7 +8,7 @@ Crie um database chamado twitter_clone com mysql 5.7 e com as seguintes tabelas:
 
 create table tweets (
 
-  id bigint NOT NULL AUTO_INCREMENT,
+  id bigint NOT NULL primary key AUTO_INCREMENT,
   id_usuario bigint NOT NULL,
   tweet varchar(140) NOT NULL,
   data DATETIME DEFAULT CURRENT_TIMESTAMP
@@ -23,7 +23,7 @@ create table usuarios_seguidores(
 );
 
 create table usuarios(
-   id bigint NOT NULL AUTO_INCREMENT,
+   id bigint NOT NULL primary key AUTO_INCREMENT,
    nome varchar(100) NOT NULL,
    email varchar(150) NOT NULL ,
    senha varchar (32) NOT NULL
