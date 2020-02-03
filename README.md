@@ -1,5 +1,5 @@
 # AmazonTweet
-App clone do Twitter chamado amazonTweet de nivel intermediário/avançado em PHP, usando Arquitetura MVC para lembrar a importância da preservação do meio ambiente.
+App imitação do Twitter chamado amazonTweet de nivel avançado em PHP, usando Arquitetura MVC, autenticação via SESSION. Recursos futuros: autenticação via email, cadastro de novos usuários com autenticação via email.
 
 
 IMGENS USADAS NO PROJETO: www.flaticon.com  by Freepik
@@ -31,7 +31,7 @@ create table usuarios(
 
 Requisitos:
 
-OBS: Não esqueça de instalar o composer;
+OBS: Não esqueça de instalar o composer e na pasta principal do projeto no CMD ou powershell dar o "composer install"
 
 Links CDN do JQuery :
 
